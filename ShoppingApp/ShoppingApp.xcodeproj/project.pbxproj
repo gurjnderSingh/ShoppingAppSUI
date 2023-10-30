@@ -11,6 +11,14 @@
 		18E24D922AEF78B900635553 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E24D912AEF78B900635553 /* ContentView.swift */; };
 		18E24D942AEF78BB00635553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E24D932AEF78BB00635553 /* Assets.xcassets */; };
 		18E24D972AEF78BB00635553 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E24D962AEF78BB00635553 /* Preview Assets.xcassets */; };
+		18E24D9E2AEF79D400635553 /* OnBoardingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E24D9D2AEF79D400635553 /* OnBoardingScreenView.swift */; };
+		18E24DA12AEF7E1900635553 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E24DA02AEF7E1900635553 /* HomeScreenView.swift */; };
+		18E24DA42AEF850A00635553 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E24DA32AEF850A00635553 /* ImageData.swift */; };
+		18E24DA62AEF851B00635553 /* NearYouData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E24DA52AEF851B00635553 /* NearYouData.swift */; };
+		18E24DA82AEF87F000635553 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E24DA72AEF87F000635553 /* FruitCardView.swift */; };
+		18E24DAA2AEF8C7400635553 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E24DA92AEF8C7400635553 /* DetailView.swift */; };
+		18E24DAC2AEF8C9F00635553 /* TopSellingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E24DAB2AEF8C9F00635553 /* TopSellingView.swift */; };
+		18E24DAE2AEFBBA400635553 /* NearYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E24DAD2AEFBBA400635553 /* NearYouView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		18E24D912AEF78B900635553 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18E24D932AEF78BB00635553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18E24D962AEF78BB00635553 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18E24D9D2AEF79D400635553 /* OnBoardingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreenView.swift; sourceTree = "<group>"; };
+		18E24DA02AEF7E1900635553 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		18E24DA32AEF850A00635553 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		18E24DA52AEF851B00635553 /* NearYouData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearYouData.swift; sourceTree = "<group>"; };
+		18E24DA72AEF87F000635553 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
+		18E24DA92AEF8C7400635553 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		18E24DAB2AEF8C9F00635553 /* TopSellingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSellingView.swift; sourceTree = "<group>"; };
+		18E24DAD2AEFBBA400635553 /* NearYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearYouView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +67,13 @@
 		18E24D8E2AEF78B900635553 /* ShoppingApp */ = {
 			isa = PBXGroup;
 			children = (
+				18E24DA22AEF84F800635553 /* Model */,
+				18E24D9F2AEF7E0100635553 /* HomeScreen */,
 				18E24D8F2AEF78B900635553 /* ShoppingAppApp.swift */,
 				18E24D912AEF78B900635553 /* ContentView.swift */,
 				18E24D932AEF78BB00635553 /* Assets.xcassets */,
 				18E24D952AEF78BB00635553 /* Preview Content */,
+				18E24D9D2AEF79D400635553 /* OnBoardingScreenView.swift */,
 			);
 			path = ShoppingApp;
 			sourceTree = "<group>";
@@ -65,6 +84,27 @@
 				18E24D962AEF78BB00635553 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18E24D9F2AEF7E0100635553 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				18E24DA02AEF7E1900635553 /* HomeScreenView.swift */,
+				18E24DA72AEF87F000635553 /* FruitCardView.swift */,
+				18E24DA92AEF8C7400635553 /* DetailView.swift */,
+				18E24DAB2AEF8C9F00635553 /* TopSellingView.swift */,
+				18E24DAD2AEFBBA400635553 /* NearYouView.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		18E24DA22AEF84F800635553 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18E24DA32AEF850A00635553 /* ImageData.swift */,
+				18E24DA52AEF851B00635553 /* NearYouData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +177,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E24D9E2AEF79D400635553 /* OnBoardingScreenView.swift in Sources */,
+				18E24DAA2AEF8C7400635553 /* DetailView.swift in Sources */,
+				18E24DAC2AEF8C9F00635553 /* TopSellingView.swift in Sources */,
+				18E24DA62AEF851B00635553 /* NearYouData.swift in Sources */,
 				18E24D922AEF78B900635553 /* ContentView.swift in Sources */,
 				18E24D902AEF78B900635553 /* ShoppingAppApp.swift in Sources */,
+				18E24DAE2AEFBBA400635553 /* NearYouView.swift in Sources */,
+				18E24DA82AEF87F000635553 /* FruitCardView.swift in Sources */,
+				18E24DA42AEF850A00635553 /* ImageData.swift in Sources */,
+				18E24DA12AEF7E1900635553 /* HomeScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
